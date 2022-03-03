@@ -1,0 +1,44 @@
+tipo sao mt importantes no go
+tipo sao imutaveis
+tipos compostos slice, array, struct, map
+declartacao = criacao da variavel
+inicializacvao = primeira atribuicao de valor
+atribuicao = quando trocar o valor 
+cada tipo de variaverl tem um valor zero diferente (int =0, float=0,0, bool=false)
+temos 2 tipos de sring
+    interpretada ex: "oi\nteste\ndasdas"
+    raw(cru em portugues) ex: entre acentos `"oi\nteste\ndasdas"`
+
+#####Criando tipos
+tipo adjacente = tipo base
+conversao de tipo
+tipo sao diferentes mais o tipo adjacente sao iguais
+
+#####Funcoes
+argumentos = chamada da funcao
+paramentros = na criacao da funcao
+int ... (parametro variadico) so pode usar no final como paramentro
+----defer = statement (adiar)
+    deixa pra ultima hora 
+    ultima coisa para rodar dentro da funcao 
+    defer trabalha com pilha, se tiver 2 defer ele vai executar sempre de tras para frente ex:
+        defer(teste1)
+        defer(teste2)
+        RETORNO> teste2 e depois teste1
+
+#####Metodos
+Eh uma funcao anexa a um tipo
+Ela so pode ser executada utilizando o tipo
+    exemplo: tipo.metodo(argumentos)
+
+#####Clouser
+= 
+
+
+
+
+
+
+Golang Interview Questions for Freshers
+https://www.interviewbit.com/golang-interview-questions/#how-to-check-if-go-map-contains-a-key
+https://www.educative.io/blog/50-golang-interview-questions
